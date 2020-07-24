@@ -1,5 +1,5 @@
 body{
-    background-image: url("background.png");
+    background-image: url("img/background.png");
     font-family: Verdana, Tahoma, sans-serif;
     font-size: 8pt;
     padding: 0;
@@ -8,7 +8,7 @@ body{
 }
  #banner{
      text-align: center;
-     background-image: url("bannerbg.png");
+     background-image: url("img/bannerbg.png");
      background-repeat: repeat-x;
 
  }
@@ -34,7 +34,7 @@ body{
  }
  #score{
      text-align: left;
-     background-image: url("rbg.png");
+     background-image: url("img/rbg.png");
      background-repeat: repeat-x;
      font-size: 48pt;
      color: red;
