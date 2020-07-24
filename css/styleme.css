@@ -1,0 +1,43 @@
+p {
+font-family: sans-serif;
+initial-letter: 4;
+}
+h1{
+    font-family: serif;
+    color : blue;
+    font-size: 30px;
+}
+
+h3{
+    font-family: Georgia;
+    color : green;
+}
+
+body {
+    background-color: lightblue;
+}
+
+.hh{
+	font-style: normal;
+	font-family: Verdana, Times, serif;
+}
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.st1 {
+	list-style-type: none;
+	color: yellow;
+}
+.st2 {
+	list-style-type: none;
+	color: white;
+}
+
+p.drop-cap:first-letter {
+    font-size: 1.5em;
+    float: left;
+    margin-top: .15em;
+}
