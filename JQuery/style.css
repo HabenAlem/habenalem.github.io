@@ -1,0 +1,34 @@
+.divanimation {
+    margin: auto;
+    padding: 8px;
+    background:#00D500;
+    width: 200px;
+    height:200px;
+    box-shadow: 0 0 5px #aaa;
+    font-size: 18px;
+    text-align:center;
+    border-radius: 200px;
+    position: absolute; left: 50%; top: 50%;
+
+}
+.divanimation:nth-child(1) { background: red; margin-left: -60px; }
+.divanimation:nth-child(2) { background: green; }
+.divanimation:nth-child(3) { background: blue; margin-left: 30px; }
+
+.divanimation:nth-child(4) { background: purple; margin-left: -160px; }
+.divanimation:nth-child(5) { background: yellow; }
+.divanimation:nth-child(6) { background: orange; margin-left: 120px; }
+
+.divanimation > div { display: none; }
+.divanimation.expanded > div { display: block; }
+button{
+    margin: 50px;
+}
+#id1{
+    alignment: top;
+    border-radius:20px;
+    size: auto;
+    margin: 10px;
+    margin-top: 0;
+
+}
